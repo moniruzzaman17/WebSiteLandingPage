@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Moniruzzaman.Moon</title>
+
+	<!-- CSS link -->
+	<link rel="stylesheet" href="css.css" type="text/css">
+</head>
+<body>
+	<div class="header_div">
+		<nav>
+			<ul>
+				<li><img class="logo_image" src="img/iubat_sj.png"></img></li>
+				<li><a href="#"><b><h>Home</h></b></a></li>
+				<li><a href="#"><b>Registration</b></a></li>
+				<li><a href="#"><b>Information</b></a></li>
+				<li><a href="#"><b>View</b></a></li>
+				<li><a href="#"><b>About</b></a></li>
+				
+				<form action="" class="navbar_right" role="search">
+					<li class="search_box">
+						<input type="text"	placeholder="Search"/>
+						<button type="submit" class="search_button">Search</button>
+					</li>		
+				</form>	
+			</ul>
+
+		</nav>
+	</div>
+
+	<div class="image_div">
+		<img class="mySlides" src="img/img1.jpg">
+		<img class="mySlides" src="img/img2.jpg">
+		<img class="mySlides" src="img/img3.jpg">
+	</div>
+
+
+	<div>
+
+		<script>
+			var myIndex = 0;
+			carousel();
+
+			function carousel() 
+			{
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+				}
+				myIndex++;
+				if (myIndex > x.length) {myIndex = 1}
+					x[myIndex-1].style.display = "block";  
+				    setTimeout(carousel, 4000); // Change image every 4 seconds
+				}
+
+			</script>
+		</div>
+		<br>
+
+		<div class="notification_div">
+			<marquee behavior="scroll" direction="left"><h4>Wellcome to visit our site. Site Information Site Information Site Information Site Information</h4></marquee>
+		</div>
+		<br>
+		<div class="service_div">
+			<div class="service_image_div">
+
+				<div class="service_image">
+					<a class="service_thumbnail">
+						<img class="s_image" src="img/1.jpg">
+
+						<h4 align="center">Services title</h4>
+						<p align="center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,</p>
+						<button>View details</button>
+					</a>
+				</div>
+
+				<div class="service_image">
+					<a class="service_thumbnail">
+						<img class="s_image" src="img/2.jpg">
+
+						<h4 align="center">Services title</h4>
+						<p align="center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,</p>
+						<button>View details</button>
+					</a>
+				</div>
+
+				<div class="service_image">
+					<a class="service_thumbnail">
+						<img class="s_image" src="img/3.jpg">
+
+						<h4 align="center">Services title</h4>
+						<p align="center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,</p>
+						<button>View details</button>
+					</a>
+				</div>
+
+				<div class="service_image">
+					<a class="service_thumbnail">
+						<img class="s_image" src="img/4.jpg">
+						<h4 align="center">Services title</h4>
+						<p align="center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,</p>
+						<button>View details</button>
+					</a>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="gallery_div">
+			<h1 align="center">OUR WORK GALLERY</h1>
+			<p align="center">Write some summery about product</p>
+			<div class="btn_group">
+				<a href="" class="btn_group"><b><u>Personal Info</u> |</b></a>
+				<a href="" class="btn_group"><b><u>Group Photo</u> |</b></a>
+				<a href="" class="btn_group"><b><u>Campus Photo</u></b></a>
+			</div>
+
+			<div>
+				<h2 align="center">Campus Gallery</h2>
+			</div>
+
+			<div class="gallery_image_div">
+
+				<div class="gallery_image">
+					<a href="" class="thumbnail">
+						<img class="g_image" src="img/a.jpg" alt="">
+					</a>
+				</div>
+
+				<div class="gallery_image">
+					<a href="" class="thumbnail">
+						<img class="g_image" src="img/b.jpg" alt="">
+					</a>
+				</div>
+
+				<div class="gallery_image">
+					<a href="" class="thumbnail">
+						<img class="g_image" src="img/c.jpg" alt="">
+					</a>
+				</div>
+
+				<div class="gallery_image">
+					<a href="" class="thumbnail">
+						<img class="g_image" src="img/d.jpg" alt="">
+					</a>
+				</div>
+			</div>
+
+
+		</div>
+		<br>
+
+		<div class="feedback_div">
+			<h1 align="center">Feedback <small style="color: gray">Check out our client feedback</small></h1>
+			<div class="feedback_column">
+				<p> Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, 		augue 	velit cursus nunc,
+				</p>
+				<footer style="margin-left: 20px">---Moon</footer>
+			</div>
+
+			<div class="feedback_column">
+				<p> Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum 			sodales, 		augue 	velit cursus nunc,
+				</p>
+				<footer>---Moon</footer>
+			</div>
+
+			<div class="feedback_column">
+				<p> Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum 			sodales, 		augue 	velit cursus nunc,
+				</p>
+				<footer>---Moon</footer>
+			</div>
+		</div>
+
+		<br>
+		
+		<div class="contact_div">
+			<h1 align="center">Contact Us <small style="color: gray">Feel free to leave your message</small></h1>
+			<div class="contact_info_div">
+				<h4 align="center">Contact Information</h4>
+				<table class="contact_info_table">
+					<tr>
+						<td>
+							<strong>Address</strong>
+						</td>
+						<td>
+							Your Company Name
+							<br>
+							Address Line 1
+							<br>
+						</td>
+					</tr>
+					<br>
+					<tr>
+						<td>
+							<strong>Mobile</strong>
+						</td>
+						<td>
+							<br>
+							09621564214
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>Phone</strong>
+						</td>
+						<td>
+							0965848
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="contact_info_div">
+				<h4 align="center">Contact Form</h4>
+				<form action="">
+					<table class="contact_form_table">
+						<tr>
+							<td>
+								<label for="name">Your Name* :</label>
+							</td>
+							<td>
+								<input type="text" class="l" placeholder="Your full name" id="name"/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="email">Your Email :</label>
+							</td>
+							<td>
+								<input type="email" class="" placeholder="Your email" id="email"/>
+							</td>
+						</tr>	
+						<tr>
+							<td>
+								<label for="subject">Subject* :</label>
+							</td>
+							<td>
+								<textarea></textarea>
+							</td>
+						</tr>
+						<tr align="center">
+							<td>
+								<button type="submit" class="">Send</button>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>	
+
+		<br>
+		<div>
+			<footer class="footer">
+				<p>© Copyright- All right reserved <a href="#">Md. Moniruzzaman</a> Bangladesh</p>
+			</footer>
+		</div>
+	</body>
+	</html>
